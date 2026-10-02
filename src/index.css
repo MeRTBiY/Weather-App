@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --animate-fade-up: fade-up 0.35s ease-out both;
+  --animate-float: float 5s ease-in-out infinite;
+  @keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+}
+
+/* Запрет горизонтальной прокрутки: страница скроллится только вниз */
+html { background: #0b1020; }
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+body { @apply font-sans text-white antialiased; }
+#root { min-height: 100dvh; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
