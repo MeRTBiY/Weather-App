@@ -1,5 +1,5 @@
 English
-A small weather app for European cities that I made for my portfolio.
+A small weather app for European cities.
 
 I wanted to see the weather in a bunch of cities at once without opening ten tabs, and I also wanted to practice React on something more real than a todo list. So I built this.
 
@@ -37,8 +37,10 @@ Search used to lag on every keystroke because the whole city grid re-rendered. u
 I wanted search to find cities in any language and without diacritics, so typing "kosice" finds Košice. I ended up building one search string per city with all the names and normalizing it.
 Weather data comes from Open-Meteo.
 
+
+
 Русский
-Небольшое приложение с погодой по городам Европы, которое я сделал для портфолио.
+Небольшое приложение с погодой по городам Европы.
 
 Хотелось смотреть погоду сразу в куче городов, не открывая десять вкладок. Заодно хотелось потренироваться в React на чём-то посерьёзнее, чем todo-лист. Вот так оно и получилось.
 
@@ -76,8 +78,10 @@ npm run build:single  # один index.html в dist-single/
 Хотелось, чтобы поиск находил город на любом языке и без диакритики: пишешь «kosice» и находит Košice. В итоге для каждого города собираю одну строку со всеми названиями и нормализую её.
 Данные о погоде берутся из Open-Meteo.
 
+
+
 Slovenčina
-Malá aplikácia o počasí v európskych mestách, ktorú som spravil do portfólia.
+Malá aplikácia o počasí v európskych mestách.
 
 Chcel som vidieť počasie vo viacerých mestách naraz bez otvárania desiatich kariet. Zároveň som si chcel precvičiť React na niečom reálnejšom ako todo list. Tak vznikla táto aplikácia.
 
