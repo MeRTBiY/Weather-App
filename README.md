@@ -25,7 +25,7 @@ If you want to run it from source (you'll need Node.js 18 or newer):
 
 npm install
 npm run dev
-Then open http://localhost:5173.
+Then open localhos
 
 Build:
 
@@ -66,7 +66,7 @@ Open-Meteo API: бесплатный и без API-ключа. Текущую п
 
 npm install
 npm run dev
-И открыть http://localhost:5173.
+И открыть localhost
 
 Сборка:
 
@@ -107,7 +107,7 @@ Ak to chceš spustiť zo zdrojákov (potrebuješ Node.js 18 alebo novší):
 
 npm install
 npm run dev
-Potom otvor http://localhost:5173.
+Potom otvor localhost
 
 Build:
 
